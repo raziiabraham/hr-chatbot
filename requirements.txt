@@ -1,0 +1,9 @@
+numpy
+gensim.models
+nltk.tokenize
+sklearn.metrics.pairwise
+collections
+streamlit
+requests
+time
+logging

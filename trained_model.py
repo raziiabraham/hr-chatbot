@@ -1,3 +1,5 @@
+"""
+
 import ssl
 import pandas as pd
 from gensim.models import Word2Vec
@@ -31,3 +33,5 @@ model = Word2Vec(sentences=df['Tokenized_Resume'].tolist(), vector_size=100, win
 model.save('resume_word2vec.model')
 
 print("Model trained and saved.")
+
+"""
