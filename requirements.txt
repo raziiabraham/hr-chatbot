@@ -2,8 +2,5 @@ numpy
 gensim
 nltk
 scikit-learn
-collections
 streamlit
 requests
-time
-logging
