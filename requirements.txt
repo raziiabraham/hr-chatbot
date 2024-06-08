@@ -1,7 +1,7 @@
 numpy
 gensim
 nltk
-sklearn
+scikit-learn
 collections
 streamlit
 requests
