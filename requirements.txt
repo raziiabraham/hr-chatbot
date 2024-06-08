@@ -4,4 +4,4 @@ nltk
 scikit-learn
 streamlit
 requests
-scipy
+scipy==1.12
