@@ -1,7 +1,7 @@
 numpy
-gensim.models
-nltk.tokenize
-sklearn.metrics.pairwise
+gensim
+nltk
+sklearn
 collections
 streamlit
 requests
