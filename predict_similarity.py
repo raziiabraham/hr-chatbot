@@ -1,11 +1,15 @@
 import numpy as np
 from gensim.models import Word2Vec
+import nltk
 from nltk.tokenize import word_tokenize
 from sklearn.metrics.pairwise import cosine_similarity
 from collections import Counter
 
 # Load the trained model
 model = Word2Vec.load('resume_word2vec.model')
+
+# Ensure nltk dependencies are downloaded
+nltk.download('punkt')
 
 # Function to get the weighted Word2Vec embedding for a text_string
 def get_weighted_text_string_embedding(model, text_string):
